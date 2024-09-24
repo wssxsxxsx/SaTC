@@ -37,4 +37,5 @@ else:
     ghidra_args += ['-import', args.binary]
 
 p = subprocess.Popen(ghidra_args)
+print("HELLO")
 exit(p.wait())
